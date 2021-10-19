@@ -1,3 +1,4 @@
+'use strict';
 // Functions
 
 function logger() {
@@ -14,7 +15,7 @@ function fruitProcessor(apples, oranges) {
     return juice;
 }
 
-const appleJuice = fruitProcessor(5, 0)
+const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
