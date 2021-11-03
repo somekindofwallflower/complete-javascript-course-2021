@@ -25,9 +25,7 @@ const jonasObject = {
 
 console.log(jonasObject.calcAge());
 console.log(jonasObject['calcAge']());
-
 console.log(jonasObject.age);
-
 // Challenge
-"Jonas is a 46-year old teacher, and he has a/no driver's license"
+// "Jonas is a 46-year old teacher, and he has a/no driver's license"
 console.log(jonasObject.getSummary())
