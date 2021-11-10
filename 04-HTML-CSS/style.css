@@ -1,0 +1,23 @@
+body {
+    background-color: #c8d7b0;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    color: #034203;
+}
+
+.first {
+    color: green;
+}
+
+#your-name {
+    background-color: #c8d7b0;
+    border: 5px solid #444;
+    padding: 15px;
+}
