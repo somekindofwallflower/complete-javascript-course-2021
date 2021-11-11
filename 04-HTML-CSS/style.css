@@ -1,11 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #c8d7b0;
     font-family: Arial;
     font-size: 14px;
+    padding: 50px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
 }
 
 a {
@@ -16,8 +29,27 @@ a {
     color: green;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 #your-name {
     background-color: #c8d7b0;
     border: 5px solid #444;
-    padding: 15px;
+    width: 800px;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#github-image {
+    width: 400px;
+}
+
+#your-name h2 {
+    color: #034203;
 }
