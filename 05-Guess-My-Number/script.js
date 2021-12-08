@@ -14,29 +14,27 @@ document.querySelector('.score').textContent = 20;
 document.querySelector('.guess').value;
 // Manipulate the content of html element with class .guess
 document.querySelector('.guess').value = 20;*/
-
-
 // // Using query selector select button element
 // document.querySelector('.check');
 
-// Random number between 1 and 20
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
+// Create a variable to store random number between 1 and 20
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
+// Create a variable score with initial value of 20
 let score = 20;
 document.querySelector('.score').textContent = score;
-document.querySelector('.number').textContent = secretNumber;
 
+// Guess number logic game
 
 // Handle click event on button click
 document.querySelector('.check').addEventListener('click', function () {
     const guess = Number(document.querySelector('.guess').value);
-
     // When there is no input
     if (!guess) {
-
         document.querySelector('.message').textContent = "⛔️ No number!";
     // When player wins
     } else if (guess === secretNumber) {
         document.querySelector('.message').textContent = "🎉 Correct Number!";
+        document.querySelector('.number').textContent = secretNumber;
         document.querySelector('body').style.backgroundColor = '#60b347';
         document.querySelector('.number').style.width = '30rem';
    // When guess is too high
@@ -49,7 +47,6 @@ document.querySelector('.check').addEventListener('click', function () {
             document.querySelector('.message').textContent = "💥 You lost the game!";
             document.querySelector('.score').textContent = 0;
         }
-
     // When guess is too low
     } else if (guess < secretNumber) {
         if (score > 1) {
@@ -62,3 +59,34 @@ document.querySelector('.check').addEventListener('click', function () {
         }
     }
 });
+
+
+/*
+Coding Challenge #1
+Implement a game rest functionality, so that the player can make a new guess!
+Your tasks:
+1. Select the element with the 'again' class and attach a click event handler
+2. In the handler function, restore initial values of the 'score' and
+'secretNumber' variables
+3. Restore the initial conditions of the message, number, score and guess input
+fields
+4. Also restore the original background color (#222) and number width (15rem)
+GOOD LUCK 😀
+*/
+
+document.querySelector('.again').addEventListener('click', function() {
+    // Restore initial values of the 'score'
+    score = 20;
+    document.querySelector('.score').textContent = score;
+    // Restore initial values of the 'secretNumber'
+    secretNumber = Math.trunc(Math.random() * 20) + 1
+    // Restore the initial conditions of the guess value
+    document.querySelector('.guess').value = '';
+    // Restore the original background color (#222) and number width (15rem)
+    document.querySelector('body').style.backgroundColor = '#222';
+    document.querySelector('.number').style.width = '15rem';
+    // Restore the initial conditions of the message
+    document.querySelector('.message').textContent = "Start guessing...";
+    // Restore the initial conditions of the number
+    document.querySelector('.number').textContent = "?";
+})
