@@ -22,7 +22,7 @@ let secretNumber = Math.trunc(Math.random() * 20) + 1;
 // Create a variable score with initial value of 20
 let score = 20;
 document.querySelector('.score').textContent = score;
-
+let highScore = 0;
 // Guess number logic game
 
 // Handle click event on button click
@@ -37,6 +37,10 @@ document.querySelector('.check').addEventListener('click', function () {
         document.querySelector('.number').textContent = secretNumber;
         document.querySelector('body').style.backgroundColor = '#60b347';
         document.querySelector('.number').style.width = '30rem';
+        if (score > highScore) {
+            highScore = score;
+            document.querySelector('.highscore').textContent = highScore;
+        }
    // When guess is too high
     } else if (guess > secretNumber) {
         if (score > 1) {
