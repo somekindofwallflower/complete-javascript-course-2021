@@ -1,6 +1,6 @@
 "use strict";
 
-//Read the content of a html element
+/*//Read the content of a html element
 document.querySelector('.message').textContent;
 // Change the content of a html element
 document.querySelector('.message').textContent = 'Correct number';
@@ -13,5 +13,16 @@ document.querySelector('.score').textContent = 20;
 // Read the content of html element with class .guess
 document.querySelector('.guess').value;
 // Manipulate the content of html element with class .guess
-document.querySelector('.guess').value = 20;
+document.querySelector('.guess').value = 20;*/
 
+
+// Using query selector select button element
+document.querySelector('.check');
+
+// Handle click event on button click
+document.querySelector('.check').addEventListener('click', function() {
+    const guess = Number(document.querySelector('.guess').value);
+    if(!guess) {
+        document.querySelector('.message').textContent = "⛔️ No number!";
+    }
+});
