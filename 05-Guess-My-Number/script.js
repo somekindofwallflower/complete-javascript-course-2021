@@ -19,6 +19,7 @@ document.querySelector('.guess').value = 20;*/
 
 // Create a variable to store random number between 1 and 20
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
+console.log(secretNumber);
 // Create a variable score with initial value of 20
 let score = 20;
 document.querySelector('.score').textContent = score;
@@ -26,7 +27,7 @@ let highScore = 0;
 // Guess number logic game
 
 const displayMessage = (message) => {
-    return  document.querySelector('.message').textContent = message;
+    return document.querySelector('.message').textContent = message;
 }
 
 // Handle click event on button click
@@ -44,16 +45,16 @@ document.querySelector('.check').addEventListener('click', function () {
         if (score > highScore) {
             highScore = score;
             document.querySelector('.highscore').textContent = highScore;
-        } // When guess is wrong
-        else if (guess !== secretNumber) {
-            if (score > 1) {
-                displayMessage(guess > secretNumber ? "📈 Too high!" : "📉 Too low!")
-                score--;
-                document.querySelector('.score').textContent = score;
-            } else {
-                displayMessage( "💥 You lost the game!")
-                document.querySelector('.score').textContent = 0;
-            }
+        }
+    }// When guess is wrong
+    else if (guess !== secretNumber) {
+        if (score > 1) {
+            displayMessage(guess > secretNumber ? "📈 Too high!" : "📉 Too low!")
+            score--;
+            document.querySelector('.score').textContent = score;
+        } else {
+            displayMessage("💥 You lost the game!")
+            document.querySelector('.score').textContent = 0;
         }
     }
 });
