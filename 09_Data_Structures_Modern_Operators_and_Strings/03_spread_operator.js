@@ -42,7 +42,7 @@ console.log(newArray);
 console.log(...newArray);
 
 
-const newMenu = [...restaurant.mainMenu, 'Gnocci'];
+const newMenu = [...restaurant.mainMenu, 'Gnocchi'];
 console.log(newMenu);
 
 // Copy Array
