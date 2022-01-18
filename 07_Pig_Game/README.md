@@ -9,4 +9,4 @@ Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the pl
 - If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
 > The first player to score 100 or more points wins.
 
-<img src="https://github.com/somekindofwallflower/pig-game/blob/master/pig_game.gif" />
+<img src="https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/07_Pig_Game/pig_game.gif" />
