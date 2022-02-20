@@ -1,0 +1,13 @@
+## Functions
+- [Default Parameters](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/01_default_parameters.js)
+- [How Passing Arguments Works: Value vs. Reference](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/02_value_reference_parameters.js)
+- [First-Class and Higher-Order Functions](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/03_first_class_and_higher_order_functions.js)
+- [Functions Accepting Callback Functions](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/04_functions_accepting_callback_functions.js)
+- [Functions Returning Functions](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/05_functions_returning_functions.js)
+- [The call and apply Methods](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/06_call_and_apply_methods.js)
+- [The bind Method](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/07_bind_method.js)
+- [Coding Challenge #1](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/08_coding_challenge_1.js)
+- [Immediately Invoked Function Expressions (IIFE)](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/09_immdiately_invoked_functions_expressions.js)
+- [Closures](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/10_closures.js)
+- [More Closure Examples](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions/11_more_closure_examples.js)
+- [Coding Challenge #2](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/12_coding_challenge_2.js)
