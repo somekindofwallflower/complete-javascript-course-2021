@@ -12,4 +12,5 @@ Modern JavaScript from the very beginning, step-by-step.
 - [Section 8: How JavaScript Works Behind the Scenes](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/08_Behind-the-Scenes)
 - [Section 9: Data Structures, Modern Operators and Strings](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/09_Data_Structures_Modern_Operators_and_Strings)
 - [Section 10: A Closer Look at Functions](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/10_Functions)
+- [Section 11: Working With Arrays](https://github.com/somekindofwallflower/complete-javascript-course-2021/blob/master/11_Working_With_Arrays)
 
